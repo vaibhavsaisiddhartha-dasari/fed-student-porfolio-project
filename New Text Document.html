@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vaibhav Sai Siddhartha Dasari - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7a7878;
+            color: #333;
+        }
+        header {
+            background-color: #4a4a4a;
+            color: #c8f3bb;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 3rem;
+            margin: 0.5rem 0;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border: 5px solid #fff;
+        }
+
+        nav {
+            background-color: #4a4a4a;
+            color: #c8f3bb;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #c8f3bb;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            color: goldenrod;
+        }
+
+        .section-content {
+            background-color: #c8f3bb;
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p, li {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        table, th, td {
+            border: 1px solid #000000;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #c8f3bb;
+        }
+
+        .download-button {
+            background-color: #4a4a4a;
+            color: #c8f3bb;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .download-button:hover {
+            background-color: goldenrod;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #4a4a4a;
+            color: #c8f3bb;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .top-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4a4a4a;
+            color: #c8f3bb;
+            border: none;
+            border-radius: 10px;
+            display: none;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .top-button:hover {
+            background-color: gold;
+        }
+
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .dark-mode header,
+        .dark-mode nav,
+        .dark-mode footer {
+            background-color: #222;
+        }
+
+        .dark-mode .profile-picture {
+            border: 5px solid #222;
+        }
+
+        .toggle-button {
+            background-color: yellow;
+            color: green;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 1rem auto;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .toggle-button:hover {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <!-- Add your profile picture here -->
+        <img src="srmap.jpeg" alt="Your Profile Picture" class="profile-picture">
+        <h1>Vaibhav Sai Siddhartha Dasari</h1>
+        <p>Passionate about learning</p>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+    </ul>
+</nav>
+<section id="about">
+    <div class="section-content">
+        <h2>About Me</h2>
+        <p>Hello Everyone! This is Vaibhav Sai Siddhartha Dasari and I am a Computer Science student.</p>
+    </div>
+</section>
+
+<section id="education">
+    <div class="section-content">
+        <h2>Education</h2>
+        <p>SRM UNIVERSITY AP  - CSE </p>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>College</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <td>10TH</td>
+                <td>Sri Chaitanya School</td>
+                <td>NA</td>
+            </tr>
+            <tr>
+                <td>12TH</td>
+                <td>Narayana Jr College</td>
+                <td>MPC</td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>SRM UNIVERSITY AP</td>
+                <td>CSE</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Programming</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="section-content">
+        <h2>Projects</h2>
+        <ol>
+            <li><a href="C:\Users\Nanthini M\OneDrive\Desktop\HTML\CSS\Ja">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <!-- Add more project links here -->
+        </ol>
+    </div>
+</section>
+
+<section id="resume">
+    <center>
+        <div class="section-content">
+            <h2>Resume</h2>
+            <a href="https://docs.google.com/document/d/1DXj5VPkepZpFptf3zjrN2" class="download-button">Download Resume</a>
+        </div>
+    </center>
+</section>
+<footer>
+    <p>&copy;2024 Vaibhav Sai Siddhartha Dasari</p>
+</footer>
+<button class="top-button" id="top-button">Top</button>
+<script>
+// Smooth scrolling to section when clicking on navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+const topButton = document.getElementById('top-button');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        topButton.style.display = 'block';
+    } else {
+        topButton.style.display = 'none';
+    }
+});
+
+// Scroll to top when "Top" button is clicked
+topButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+const toggleButton = document.createElement('button');
+toggleButton.textContent = 'Toggle Dark/Light Mode';
+toggleButton.classList.add('toggle-button');
+document.body.appendChild(toggleButton);
+toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+});
+</script>
+</body>
+</html>
